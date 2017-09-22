@@ -20,7 +20,7 @@ h1 {
 
 hr {
     border-top: 2px solid #ccc;
-    margin: 15px 0px 25px 0px;
+    margin: 15px 0 25px 0;
 }
 
 img {
@@ -30,14 +30,14 @@ img {
 
 header {
     position: fixed;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     float: left;
     background-color: #fff;
     height: 100px;
     width: 100%;
     border-bottom: 2px solid #ccc;
-    margin-top: 0px;
+    margin-top: 0;
     z-index: 10;
 }
 
@@ -81,11 +81,11 @@ header {
     z-index: 12;
 }
 
-.name h1 {
+.title {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #fff;
     text-align: center;
-    line-height: 30px;
+    line-height: 2.5em;
     font-size: 2em;
 }
 
@@ -108,7 +108,7 @@ ul {
 
 li {
     float: left;
-    padding: 0px 10px 0px 10px;
+    padding: 0 10px 0 10px;
 }
 
 
@@ -137,8 +137,8 @@ a:hover {
     height: 100px;
     background: #666;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     clear: both;
     border-top: 5px solid #4aaaa5;
     text-align: center;
@@ -163,7 +163,6 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical
@@ -206,19 +205,19 @@ label {
 }
 
 .folio img {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 
 /* this changes the margin for ever other portfolio block so its justified on both sides */
 
 .folio:nth-child(odd) {
-    margin: 0px 48px 30px 0px;
+    margin: 0 48px 30px 0;
 }
 
 .folio:nth-child(even) {
-    margin: 0px 0px 30px 0px;
+    margin: 0 0 30px 0;
 }
 
 .banner {
@@ -227,12 +226,9 @@ label {
     height: 50px;
     background-color: #4aaaa5;
     bottom: 15px;
-}
-
-.banner h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1em;
     color: #fff;
     text-align: center;
-    line-height: 25px;
+    line-height: 3em;
 }
